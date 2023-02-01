@@ -1,0 +1,28 @@
+<?php
+/*
+ * Copyright (c) 2022-2023. Recodem, Inc. All rights reserved.
+ *
+ */
+declare(strict_types=1);
+use Magento\Framework\View\Element\Template;
+use Magento\Framework\Escaper;
+/** @var $block Template */
+
+?>
+
+<div class="col-md-12" data-bind="scope: 'section'" style="padding: 0;">
+    <a class="action primary checkout" data-bind="attr:{href:cartUrl}">Cart</a>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*":{
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "section":{
+                        "component":"Recodem_React/js/newjs"
+                    }
+                }
+            }
+        }
+    }
+</script>

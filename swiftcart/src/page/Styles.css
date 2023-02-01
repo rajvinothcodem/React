@@ -1,0 +1,245 @@
+ul{
+    list-style-type: none;
+    /* display: inline-block; */
+    width: 50%;
+    margin: 0 auto;
+}
+ul li{
+    float: left;
+    padding: 5px;
+}
+ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+ul.navigation{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 auto;
+}
+ul.navigation li{
+    float: left;
+    padding: 5px;
+}
+ul.navigation li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ul.navigation li a:hover{
+    color: #ff0000;
+}
+ul.navigation li a.active{
+    color: #ff0000;
+}
+.page{
+    width: 80%;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  table{
+    width:100%
+  }
+table, tr,  td,  th {border:1px solid #DCDCDC;border-collapse: collapse;}
+button.remove{
+    background-color:  #f44336;;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  button.add{
+    background-color:  #4CBB17;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  button.update{
+    background-color:  #0047AB;;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  button.remove:hover{ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+  button.remove span{color: #ffffff;}
+  button.add:hover{ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+  button.add span{color: #ffffff;}
+  button.update:hover{ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+  button.update span{color: #ffffff;}
+  ul.totals li{display: block;float:right;clear: both;}
+  .totalswrapper .totals{float: right;width:100%}  
+  .totalswrapper{
+    float: right;
+    padding: 20px 0px;
+    margin: 20px 0;
+    clear:both;
+    width:370px;
+  }
+  .coupon{
+    float: left;
+    border: 1px solid #DCDCDC;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  input[type="text"],input[type="number"], .input-box input{
+    width: 200px;
+      height: 30px;
+      margin-right: 10px;
+      border: 1px solid #DCDCDC;
+  }
+  .loader{
+    position: absolute;
+      width: 100%;
+      top: 50%;
+  }
+  .loader img{
+    width: 100px;
+  }
+  input.qty
+  {
+    width: 50px;
+  }
+  .updateCartBtn{
+    float: right;
+    margin: 10px 0px 0px 0px;
+  }
+  .buttonscol{
+    float: right;
+  
+  }
+  .estimate-shipping
+  {
+    border: 1px solid #DCDCDC;
+    float: left;
+    /* width: 200px; */
+    padding: 20px;
+    margin: 20px 0px 20px 20px;
+  }
+  select{
+    display: block;
+    width: 280px;
+    height: 35px;
+    margin  : 10px;
+    border: 1px solid #DCDCDC;
+  }
+  input.region, input.zip{
+    display: block;
+    width: 280px;
+    height: 35px;
+    margin  : 10px;
+    border: 1px solid #DCDCDC;
+  }
+  dl.shippingMethods{
+    text-align: left;
+    margin: 20px 10px;
+  }
+  dl.shippingMethods dd{
+    margin-left:0px;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  dl.shippingMethods dt{
+    margin: 3px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  a.proceedCheckout{
+    background-color:  #0047AB;;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 20px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    float: right;
+  }
+  a.proceedCheckout:hover{ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
+  a.proceedCheckout span{color: #ffffff;}
+  .main-content{
+    float: left;
+    width: 60%;
+  }
+  .right-content{
+    float: left;
+    width: 20%;
+  }
+  .shippingform{
+    float: left;
+    width:100%;
+    text-align: left;
+    min-height: 300px;
+  }
+  .shippingform .input-box label{
+    display: block;
+    text-align: left;
+    padding: 10px 0px;
+  }
+  .loaderimg{
+    position:fixed;
+  }
+  button.login{
+    float: left;
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+ul.address{
+  display: flex;
+  width:100%;
+  margin: 0;
+   padding: 0;
+}
+ul.address li span{
+  display: block;
+  margin: 10px 0px;
+}
+ul.address li {
+  width:35%;
+  border: 1px solid #DCDCDC;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+ul.address li span.tick{
+  background:url(./images/tick1.png) no-repeat;
+  width:60px;
+  height:48px;
+  position: absolute;
+  right: 0;
+  bottom:0;
+}
+ul.address li.active {
+  border-color: green;
+}
+.checkoutMethods{
+  text-align: left;
+    margin: 10px 0px;
+    float: left;
+    
+}
